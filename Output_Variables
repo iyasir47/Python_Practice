@@ -1,12 +1,14 @@
 #Output Variables
 x="python is good"
 print(x)
+#python is good
 
 #In the print() function, you output multiple variables, separated by a comma:
 x="Apple"
 y="Banana"
 z="Berry"
 print(x,y,z)    
+#Apple Banana Berry
 
 #You can also use the + operator to output multiple variables:
 x="Python"
