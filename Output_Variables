@@ -1,0 +1,25 @@
+#Output Variables
+x="python is good"
+print(x)
+
+#In the print() function, you output multiple variables, separated by a comma:
+x="Apple"
+y="Banana"
+z="Berry"
+print(x,y,z)    
+
+#You can also use the + operator to output multiple variables:
+x="Python"
+y="is"
+z="Good"
+print(x +" "+ y + " "+ z)
+print(type(x))
+print(type(y))
+print(type(z))
+
+'''python is good
+Apple Banana Berry
+Python is Good
+<class 'str'>
+<class 'str'>
+<class 'str'>'''
