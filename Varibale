@@ -1,0 +1,10 @@
+'''x=5
+X="Apple"
+print(x)
+print(X)'''
+My_Variable_name="Faheem cha" #Snake case
+MyVariableName="Asad Bhai"  #Pascal Case
+myVariableName= "Chabban Mia" #Camel Case
+print(My_Variable_name)
+print(MyVariableName)
+print(myVariableName)
