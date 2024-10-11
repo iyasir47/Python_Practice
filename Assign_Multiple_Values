@@ -1,0 +1,20 @@
+#Many Values to Multiple Variables
+
+x,y,z="Orange", "Papaya", "Banana"
+print(x,y,z)
+#Output : Orange Papaya Banana
+
+#One Value to Multiple Variables
+x=y=z="KAREEM DON"
+print(x,y,z)
+#Output : KAREEM DON KAREEM DON KAREEM DON
+
+#Unpack a Collection
+#If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
+# This is called unpacking.
+
+fruits= ["Samosa","Bhelpuri", "Khatti Imli"]
+x,y,z= fruits
+print(x)
+print(y)
+print(z)
