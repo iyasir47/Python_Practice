@@ -94,3 +94,34 @@ print(u)
 '''Output
 <class 'NoneType'>
 None'''
+
+#boolean
+x=True
+print(type(x))
+print(x)
+
+'''Output
+<class 'bool'>
+True'''
+
+t=0
+print(type(t))
+print(t)
+
+x,y,z=1,2,3
+print(x)
+print(y)
+print(z)
+
+x=2;i=3;o=6
+print(x)
+print(i)
+print(o)
+
+a=b=c=10
+print(a)
+print(b)    
+print(c)
+
+import keyword
+print(keyword.kwlist)
