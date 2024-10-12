@@ -1,0 +1,30 @@
+#User input
+
+"""first_name = input("enter your first name = ")
+second_name = input("enter your second name = ")
+
+print( first_name +" "+ second_name)
+"""
+'''Output
+enter your first name = Sam
+enter your second name = Martin
+Sam Martin'''
+
+# Addition
+
+first_num = input("Enter ur 1st number ")
+Second_num = input("Enter ur 2nd number ")
+
+result = int(first_num) + int(Second_num)
+print(result)
+
+'''Output
+Enter ur 1st number 52
+Enter ur 2nd number 48
+100'''
+
+first_num = int(input("Enter ur 1st number "))
+Second_num = int(input("Enter ur 2nd number "))
+
+result = (first_num) + (Second_num)
+print("Result = " +result)
