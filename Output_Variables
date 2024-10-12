@@ -25,3 +25,9 @@ Python is Good
 <class 'str'>
 <class 'str'>
 <class 'str'>'''
+
+print('hello', 'World')
+a=5
+b=6
+print(a +  b)
+

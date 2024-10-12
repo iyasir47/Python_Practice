@@ -1,0 +1,33 @@
+#Create a variable outside of a function, and use it inside the function
+x="awesome"
+ 
+def myfunc():
+  print("pyhton is " + x)
+
+myfunc()
+
+#Create a variable inside a function, with the same name as the global variable
+'''If you create a variable with the same name inside a function, this variable will be local,
+ and can only be used inside the function. The global variable with the same 
+name will remain as it was, global and with the original value.'''
+x="laptop"
+
+def myfunc():
+  x="Desktop"
+  print("start learning through " + x)
+
+myfunc()
+print("U Should Have " + x)
+
+Y="Pet"
+def myfunc():
+
+  print (" What is your " + Y +" name ?")
+
+myfunc()
+
+# Output: What is your Pet name ?
+# global variable if we create it inside of a function and it can only access inside that 
+# function it called as local variable, but if we create a same name variable global variable outside of a function 
+# accesible easily from outside and the value will not change. for example
+

@@ -1,0 +1,96 @@
+#str
+x=5
+print(type(x))
+
+z= 4j
+print(type(z))
+
+# " "  or ' ' Pyhton will take all the things in string format
+
+#List
+x = ["Apple", "banana", "Potato"]
+print(type(x))
+print(x)
+
+'''Output: 
+<class 'int'>
+<class 'complex'>
+<class 'list'>
+['Apple', 'banana', 'Potato']'''
+
+#tuple
+p=("Bat", "hat","Cat")
+print(type(p))
+print(p)
+
+'''Output
+<class 'tuple'>
+('Bat', 'hat', 'Cat')'''
+
+#range
+c=range(6)
+print(c)
+
+'''Output
+range(0, 6)'''
+
+#Set
+
+o={"Sam","Vam","Ham","Nam"}
+print(type(o))
+print(o)
+'''output
+<class 'set'>
+{'Vam', 'Nam', 'Sam', 'Ham'}'''
+
+#dictonaries
+
+d = { " Name ": " John " , " Age ": 44 }
+
+print(type(d))
+print(d)
+
+'''Output
+<class 'dict'>
+{' Name ': ' John ', ' Age ': 44}'''
+
+#frozenset
+
+l=frozenset({"dog","cat","hat"})
+print(type(l))
+print(l)
+
+'''Output
+<class 'frozenset'>
+frozenset({'dog', 'cat', 'hat'})'''
+
+# bytes
+f=b'2578'
+print(type(f))
+print(f)
+
+'''output
+<class 'bytes'>
+b'Fighter
+b'2578'''
+
+# bytearray
+
+k=bytearray(5)
+
+print(type(k))
+print(k)
+
+'''Output
+<class 'bytearray'>
+bytearray(b'\x00\x00\x00\x00\x00')'''
+
+#None
+
+u = None
+print(type(u))
+print(u)
+
+'''Output
+<class 'NoneType'>
+None'''

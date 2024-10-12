@@ -1,0 +1,9 @@
+z="Potato"
+
+def myfuc():
+  global z
+  z="Blueberry"
+  print("What is best in food " + z)
+
+  myfuc()
+  print("What is famous" + z)
