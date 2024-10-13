@@ -7,3 +7,20 @@ def myfuc():
 
   myfuc()
   print("What is famous" + z)
+
+  
+x,y,z = 5,6,8
+print(x)
+print(y)
+print(z)
+
+a,b,c,d = 4,"Str",5.6,True
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+Users_input=int(input("Enter Your first Number = "))
+print(type(Users_input))
+

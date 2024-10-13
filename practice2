@@ -1,0 +1,7 @@
+v=input("Type Ur name = ")
+f=input("Type ur Age = ")
+s=input("Type ur city name = ")
+
+O = "Name is "+v + " and my age is "+ f + " and belongs to "+ s
+
+print(O)

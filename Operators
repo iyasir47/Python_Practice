@@ -1,0 +1,23 @@
+x = 5
+y = 10
+
+print(x + y)
+print(y - x)
+print(y / x)
+print(True + y)
+print(False + x)
+
+
+if x>y:
+   print(True)
+   
+elif x<y:
+   print (False)
+    
+else:
+   print("nothing")
+
+print(x & y)
+print(x | y)  
+print(x != y)
+print(x == y)  

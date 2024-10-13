@@ -28,3 +28,90 @@ Second_num = int(input("Enter ur 2nd number "))
 
 result = (first_num) + (Second_num)
 print("Result = " +result)
+
+# Q.1 
+"""Assign Multiple Values:
+Write a Python program to assign three values to three different
+ variables in one line. Then print each variable on a new line."""
+
+'''
+x,y,z = 5,6,8
+print(x)
+print(y)
+print(z)'''
+
+'''Output
+
+5
+6
+8'''
+
+'''Q.2
+Write a Python program that assigns values to four variables
+ (integer, string, float, and boolean) in a single line and prints them.'''
+
+a,b,c,d = 4,"Str",5.6,True
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+'''Output
+4
+Str
+5.6
+True'''
+
+'''Q.3
+Write a program that takes input from the user, 
+determines the data type of the input, and prints the data type.'''
+
+Users_input=input("Enter Your first Number")
+print(type(Users_input))
+
+'''OUTPUT
+Enter Your first Number25
+<class 'int'>'''
+
+'''Q.4
+Create a program where you declare a global variable and
+modify it inside a function. After modifying it, print the 
+variable both inside and outside the function.
+'''
+
+m = "Chopper Gunner"
+
+def myfunc():
+    global m
+    m = "QQ9"
+    i="Best Guns in the CODM is  " +m 
+    print(i)
+
+myfunc()
+print(m)
+
+'''Output
+Best Guns in the CODM is  QQ9
+QQ9'''
+
+'''Q5.
+Write a program that accepts a user’s name, age,
+and city as input, and then prints a message combining 
+these variables in a single sentence.'''
+
+v=input("Type Ur name = ")
+f=input("Type ur Age = ")
+s=input("Type ur city name = ")
+
+O = "Name is "+v + "and my age is "+ f + "and belongs to "+ s
+
+print(O)
+
+'''Output
+Type Ur name = Sam maritn
+Type ur Age = 54
+Type ur city name = London
+Name is Sam maritnand my age is 54and belongs to London'''
+
+
