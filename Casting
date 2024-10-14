@@ -1,0 +1,35 @@
+x = int(4)
+y = int(5.5)
+z = int("1")
+print(x)
+print(y)
+print(z)
+
+'''Output
+4
+5
+1'''
+
+x = str("4.5")
+y = str("Cable")
+z = str(4.5)
+
+print(x)
+print(y)
+print(z)
+
+'''Output
+4.5
+Cable
+4.5'''
+
+x = float(4.5)
+y = float(4)
+z = float("3")
+
+print(x)
+print (type(x))
+print(y)
+print (type(y))
+print(z)
+print (type(z))
