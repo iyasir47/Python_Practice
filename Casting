@@ -33,3 +33,11 @@ print(y)
 print (type(y))
 print(z)
 print (type(z))
+
+'''Output
+4.5
+<class 'float'>
+4.0
+<class 'float'>
+3.0
+<class 'float'>'''

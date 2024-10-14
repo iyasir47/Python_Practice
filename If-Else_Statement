@@ -1,0 +1,17 @@
+Email = "Fox@gmail.com"
+Password = "1234"
+
+a = input(" Please enter your Email = ")
+b = input(" Please enter your Password = ")
+
+if a == Email and b == Password :
+  print(" Welcome you are login ")
+
+elif a != Email and b == Password:
+  print(" Enter again your email, The Email you have enetered is wrong! ")
+
+elif a == Email and b != Password:
+  print (" Correct your password and try again ")
+
+else:
+  print(" Enter your credentials again ")

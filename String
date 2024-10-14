@@ -1,0 +1,40 @@
+a = "Hello World"
+
+print(a[2:7])
+'''Output
+llo W'''
+
+#Slice From Start
+
+a = " Hello World"
+print (a[:5])
+
+#Get the characters from the start to position 5 (not included):
+'''Output
+Hell'''
+
+#Slice To the End
+
+a = "Hello World"
+print(a[2:])
+
+#Get the characters from position 2, and all the way to the end
+
+'''Output
+llo World'''
+
+#Negative Indexing
+
+a = "Hello World"
+print(a[:-2])
+
+"""Output
+It Will give the strings ending ,
+the counting starts from d = 0, l = -1, r = -2"""
+t = 3
+t &= 3
+print(t)
+
+a = 3
+b = 3
+print(a is b)
