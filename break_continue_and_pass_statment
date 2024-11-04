@@ -2,7 +2,8 @@ for i in range(1,11):
     if i == 5:
       break
     print(i)
-    
+
+# it breaks the statement at given i
 '''Output
 1
 2
@@ -14,3 +15,31 @@ for i in range(1,11):
       continue
    print(i)
    print("Hello")
+
+#The continue statment does -- it conntiue as the command prompt given in thhe code it skip the part for i
+# and print the rest of the statement 
+'''Output
+1
+Hello
+2
+Hello
+3
+Hello
+4
+Hello
+6
+Hello
+7
+Hello
+8
+Hello
+9
+Hello
+10
+Hello'''
+
+for i in range (1,11):
+   pass
+
+#pass statement use as a filler and work to pass the statement 
+#like if we use some code to work on later then we will use pass statement it just pass the code and we can work later
