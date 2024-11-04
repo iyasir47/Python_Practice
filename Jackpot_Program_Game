@@ -1,0 +1,29 @@
+import random
+
+def Jackpot():
+ 
+
+Jackpot = random.randint(1,101)
+b = 2
+Jackpot = Jackpot % b
+
+
+print(Jackpot)
+
+
+a = int(input("Enter Your Jackpot Number"))
+'''agar random number 100 se kam hai to if guess krega or fr output dega sahi karne ko
+aise hum multiple if else krenge or conditions jab tak jackpot number ke equal  nahi hoti'''
+guess_count = 0
+
+
+
+while a!=Jackpot:
+ 
+
+ guess_count += 1
+
+ if a<Jackpot:
+  print("Your guess is too low,try again")
+ elif a>Jackpot:
+  print("Your guess is too high, try once again")

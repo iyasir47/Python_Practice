@@ -1,7 +1,49 @@
-v=input("Type Ur name = ")
+'''v=input("Type Ur name = ")
 f=input("Type ur Age = ")
 s=input("Type ur city name = ")
 
 O = "Name is "+v + " and my age is "+ f + " and belongs to "+ s
 
-print(O)
+print(O)'''
+
+#Q: Guess number game ?
+import random
+
+# Generate a random number between 1 and 100
+Jackpot = random.randint(1, 100)
+print("A random number has been chosen between 1 and 100.")
+
+# Define the function to handle user input and limit attempts
+def myfunc():
+    guess_count = 0  # Initialize guess counter
+    max_attempts = 5  # Set the limit for user attempts
+    lower_bound = 1   # Initial lower bound
+    upper_bound = 100 # Initial upper bound
+
+    # Loop until the user guesses the correct number or reaches the maximum attempts
+    while guess_count < max_attempts:
+        try:
+            # Ask the user for their guess, showing them the current range
+            print(f"Attempt {guess_count + 1}: Guess a number between {lower_bound} and {upper_bound}")
+            a = int(input(f"Enter your guess: "))
+            guess_count += 1  # Increment guess count
+
+            # Check if the guess is correct
+            if a == Jackpot:
+                print(f"Congratulations! You guessed the correct number: {Jackpot}")
+                print(f"It took you {guess_count} guesses to find the number.")
+                return  # Exit the function once the user guesses correctly
+            elif a < Jackpot:
+                print(f"Too low! Narrowing the range to {a} - {upper_bound}")
+                lower_bound = a + 1  # Adjust the lower bound
+            elif a > Jackpot:
+                print(f"Too high! Narrowing the range to {lower_bound} - {a}")
+                upper_bound = a - 1  # Adjust the upper bound
+        except ValueError:
+            print("Please enter a valid integer.")
+
+    # If the loop ends without a correct guess, inform the user they've run out of attempts
+    print(f"Sorry, you've used all {max_attempts} attempts. The correct number was {Jackpot}.")
+
+# Call the function to run the game
+myfunc()
