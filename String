@@ -38,3 +38,7 @@ print(t)
 a = 3
 b = 3
 print(a is b)
+
+c = "Hello World"
+print(c[0:8:3])
+#Hlr

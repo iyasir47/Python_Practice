@@ -1,0 +1,7 @@
+a = 'Santosh_nakamoto'
+print(len(a))
+
+trp = "Filescc"
+
+trp[5] = "v"
+print (trp)

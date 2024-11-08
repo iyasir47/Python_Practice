@@ -1,0 +1,17 @@
+C = "Hello"
+
+del C
+print (C)
+'''Output Error 
+
+ " Exception has occurred: NameError
+name 'C' is not defined
+  File "C:\Users\Yasir\Documents\GitHub\Python_Practice\Deletion_Editing", line 4, in <module>
+    print (C)
+NameError: name 'C' is not defined "
+'''
+
+trp = "Filescc"
+
+trp[5] = "v"
+print (trp)

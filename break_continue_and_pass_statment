@@ -43,3 +43,7 @@ for i in range (1,11):
 
 #pass statement use as a filler and work to pass the statement 
 #like if we use some code to work on later then we will use pass statement it just pass the code and we can work later
+
+help('modules')
+
+
