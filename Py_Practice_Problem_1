@@ -1,0 +1,31 @@
+# User will input (3ages).Find the oldest one
+#first_No = (input("Type your first Age = "))
+
+
+
+while True:
+  first_No = (input("Type your first Age = "))
+  if first_No.isdigit():
+      a = int(first_No)
+      break
+  Second_No = (input("Type your Second Age = "))
+  if Second_No.isdigit():
+      b = int(Second_No)
+      break
+  Third_No = (input("Type your Third Age = "))
+  if Third_No.isdigit():
+      c = int(Third_No)
+      break
+  else:
+      print("Please enter a valid integer for Age")
+
+if   a>b:
+    print("Your Correct Age is " + a)
+elif a>b:
+    print("Your Correct Age is " + b)
+elif c>a:
+    print("Your Correct Age is " + c)
+elif c>b:
+    print("Your Correct Age is " + c) 
+elif b>c:
+    print("Your Correct Age is " + b)

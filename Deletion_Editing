@@ -2,6 +2,9 @@ C = "Hello"
 
 del C
 print (C)
+#Exception has occurred: NameError
+#name 'C' is not defined
+#it is deleted  but not from the system
 '''Output Error 
 
  " Exception has occurred: NameError
@@ -15,3 +18,12 @@ trp = "Filescc"
 
 trp[5] = "v"
 print (trp)
+
+#Exception has occurred: TypeError
+#'str' object does not support item assignment
+'''Output error 
+Exception has occurred: TypeError
+'str' object does not support item assignment
+  File "C:\Users\Yasir\Documents\GitHub\Python_Practice\practice3", line 6, in <module>
+    trp[5] = "v"
+TypeError: 'str' object does not support item assignment'''

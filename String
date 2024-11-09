@@ -42,3 +42,9 @@ print(a is b)
 c = "Hello World"
 print(c[0:8:3])
 #Hlr
+
+c ="Hello" +" " +"World"
+print(c)
+
+a='Delhi' > 'Pune'
+print(a)

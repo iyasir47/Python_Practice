@@ -1,0 +1,58 @@
+a = "hello, this is africa, nigga"
+print (a.capitalize())
+print (a.title())
+
+#.capitalize() - do capital the first letter of any sentence 
+# .title() - makes every  characters in upper letter of any sentence 
+'''
+Output
+
+Hello, this is africa, nigga
+Hello, This Is Africa, Nigga
+'''
+print (len(a))
+print (max(a))
+print (min(a))
+
+'''
+Output
+28
+t
+'''
+
+c = sorted(a,reverse=True)
+print(c)
+
+
+'''Output
+
+['t', 's', 's', 'r', 'o', 'n', 'l', 'l', 'i', 'i', 'i', 'i', 'h', 'h', 'g', 
+'g', 'f', 'e', 'c', 'a', 'a', 'a', ',', ',', ' ', ' ', ' ', ' ']'''
+
+v = a.upper()
+print(v)
+
+n = a.lower()
+print(n)
+
+m = a.swapcase()
+print(m)
+#HELLO, THIS IS AFRICA, NIGGA
+
+o = a.count("i")
+print(o)
+
+# 4
+
+print(a.find("this"))
+# 7
+# .find() gives you the index no and if there is given value not in the string then it will return minus(-1)
+
+print(a.find("v"))
+
+#-1
+
+print(a.startswith("hel"))
+#True
+print(a.endswith("gga"))
+#True
